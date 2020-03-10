@@ -1,4 +1,4 @@
-package com.riadmohamed.roomwordssample;
+package com.riadmohamed.roomwordssample.View;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,6 +16,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.riadmohamed.roomwordssample.R;
+import com.riadmohamed.roomwordssample.ViewModel.WordViewModel;
+import com.riadmohamed.roomwordssample.model.Word;
 
 import java.util.List;
 

@@ -1,9 +1,12 @@
-package com.riadmohamed.roomwordssample;
+package com.riadmohamed.roomwordssample.ViewModel;
 
 import android.app.Application;
 
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
+
+import com.riadmohamed.roomwordssample.model.Word;
+import com.riadmohamed.roomwordssample.model.WordRepository;
 
 import java.util.List;
 
@@ -19,7 +22,7 @@ public class WordViewModel extends AndroidViewModel {
         mAllWords = mRepository.getAllWords();
     }
 
-    LiveData<List<Word>> getAllWords() { return mAllWords; }
+    public LiveData<List<Word>> getAllWords() { return mAllWords; }
 
     public void insert(Word word) { mRepository.insert(word); }
 }

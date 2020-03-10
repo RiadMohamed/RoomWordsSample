@@ -1,4 +1,4 @@
-package com.riadmohamed.roomwordssample;
+package com.riadmohamed.roomwordssample.View;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.riadmohamed.roomwordssample.R;
 
 public class NewWordActivity extends AppCompatActivity {
     public static final String EXTRA_REPLY =

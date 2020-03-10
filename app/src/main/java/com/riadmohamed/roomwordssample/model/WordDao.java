@@ -1,4 +1,4 @@
-package com.riadmohamed.roomwordssample;
+package com.riadmohamed.roomwordssample.model;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;

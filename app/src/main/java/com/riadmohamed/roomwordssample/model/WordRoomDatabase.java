@@ -1,4 +1,4 @@
-package com.riadmohamed.roomwordssample;
+package com.riadmohamed.roomwordssample.model;
 
 import android.content.Context;
 import android.os.AsyncTask;
